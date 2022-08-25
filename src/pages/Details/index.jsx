@@ -1,10 +1,14 @@
 import { Container } from "./styles";
 
+import { Header } from "../../components/header";
+import { Button } from "../../components/Button";
+
 export function Details() {
   return (
     <Container>
-      <h1>Bruno Sampaio</h1>
-      <p>Hello World!</p>
+      <Header />
+      <Button title='Voltar' />
+      
     </Container>
   );
 }
